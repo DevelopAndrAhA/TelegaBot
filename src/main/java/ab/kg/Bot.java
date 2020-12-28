@@ -23,7 +23,7 @@ public class Bot extends TelegramLongPollingBot {
                     .setChatId(chat_id)
                     .setText("salam АЙДААНА "+new Random(47).nextInt());
             try {
-                addingBtn(message,message.deserializeResponse("aloha salam"));
+                addingBtn(message,update.getMessage());
                 execute(message); // отправка СМС
             } catch (Exception e) {
                 e.printStackTrace();
