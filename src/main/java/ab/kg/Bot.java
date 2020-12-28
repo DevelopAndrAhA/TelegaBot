@@ -29,7 +29,7 @@ public class Bot extends TelegramLongPollingBot {
                     .setText(msgTxt);
             try {
                 execute(message); // Sending our message object to user
-            } catch (TelegramApiException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
