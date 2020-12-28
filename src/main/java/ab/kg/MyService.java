@@ -1,5 +1,6 @@
 package ab.kg;
 
+import ab.kg.models.MyTestEntity;
 import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
