@@ -1,4 +1,4 @@
-package ab.kg;
+package ab.kg.service;
 
 import ab.kg.models.MyTestEntity;
 import org.hibernate.Criteria;
