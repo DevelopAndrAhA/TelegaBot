@@ -14,10 +14,9 @@ public class Bot extends TelegramLongPollingBot {
             String message_text = update.getMessage().getText();
             System.out.println(message_text);
             long chat_id = update.getMessage().getChatId();
-
             SendMessage message = new SendMessage() // Create a message object object
                     .setChatId(chat_id)
-                    .setText("TEXT FROM ALTUHA ,RANDOM INT "+new Random(47).nextInt());
+                    .setText("salam АЙДААНА "+new Random(47).nextInt());
             try {
                 execute(message); // Sending our message object to user
             } catch (Exception e) {
